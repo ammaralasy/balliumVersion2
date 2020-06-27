@@ -85,7 +85,7 @@ main {
   /*height: 100%;*/
   background: no-repeat url("./assets/cover-sm.png");
   background-size: cover;
-  background-origin: border-box;
+  background-origin: content-box;
 }
 main p {
   width: 100%;
