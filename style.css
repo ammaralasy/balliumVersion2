@@ -14,7 +14,7 @@ header {
 }
 .navigation-container {
   width: 100px;
-  height: 200px;
+  height: 180px;
   position: absolute;
   right: 5%;
   top: 130%;
@@ -36,7 +36,7 @@ header {
 }
 .navigation::before {
   content: "";
-  padding: 80px 50px;
+  padding: 95px 50px;
   border: 1.5px solid #51BAAC;
   position: absolute;
   right: -6px;
@@ -85,6 +85,7 @@ main {
   /*height: 100%;*/
   background: no-repeat url("./assets/cover-sm.png");
   background-size: cover;
+  background-origin: border-box;
 }
 main p {
   width: 100%;
