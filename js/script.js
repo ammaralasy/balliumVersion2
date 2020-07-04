@@ -1,6 +1,7 @@
 window.onload = () => {
         
     var button = document.getElementById('bars-image');
+
     function displayFlex() {
     var displayToggle = document.getElementById("displayToggle");
     if (displayToggle.style.display === "flex"){
@@ -23,6 +24,7 @@ window.onload = () => {
     .fromTo(before, {opacity: 0}, {opacity: 1, duration: 0.5});
     gsap.fromTo(".navigation a", {opacity: 0}, {opacity: 1, duration: 0.5, delay: 0.5});
     }
+    
     }
     button.addEventListener ("click", function () {
       displayFlex()
