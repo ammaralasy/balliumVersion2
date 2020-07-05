@@ -125,6 +125,7 @@ height: 100vh;
 .intro h1 {
   padding-top: 30px;
   padding-bottom: 20px;
+  text-transform: capitalize;
 }
 .intro h1,p {
   width: 80%;
