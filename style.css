@@ -120,7 +120,11 @@ height: 100vh;
   line-height: 1.5em;
 }
 .intro p {
-  font-size: 1.3em;
+  height: 100%;
+  font-size: 1.2em;
+  text-align: justify;
+  hyphens: auto;
+  overflow: scroll;
   
 }
 /*.main-image img {
