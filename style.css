@@ -112,15 +112,21 @@ font-family: "avantgarde", sans-serif;
 article {
 position: relative;
 width: 100%;
-height: 100vh;
+height: 200vh;
+display: flex;
+flex-direction: column;
+/* border: 2px solid green; */
+top: 100%;
 }
 .intro {
   background-color: #51BAAC;
-  position: absolute;
+  /*position: absolute;
   top: 99.5%;
+  z-index: -2;*/
   color: white;
-  z-index: -2;
-  height: 100vh;
+  height: 50%;
+  width: 100%;
+  /* border: 5px solid orange; */
 }
 .intro h1 {
   padding-top: 30px;
@@ -149,3 +155,35 @@ height: 100vh;
   left: 0;
   z-index: -1;
 }*/
+#slides {
+  /* border: 2px solid red; */
+ /* position: absolute;
+  top: 100%;*/
+  width: 100%;
+  height: 50%;
+  position: relative;
+  margin-top: 50px;
+}
+#first-slides {
+  width: 80%;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  /*position: relative;*/
+}
+#first-slides div{
+  
+}
+#first-slides img {
+width: 100%;
+height: 80%;
+margin: auto;
+}
+#up , #down {
+  width: 45px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 12.5%;
+}
+#down {
+  right: 0;
+}

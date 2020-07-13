@@ -30,7 +30,19 @@ window.onload = () => {
       displayFlex()
       
       });
-  
+      // Below is codes for carouel slides
+$("#first-slides").slick({
+  dots: false,
+  arrows: true,
+  infinite: true,
+  vertical: false,
+  speed: 300,
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  nextArrow: $("#up"),
+  prevArrow: $("#down")
 
+});
    
  }
