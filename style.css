@@ -179,10 +179,11 @@ height: 80%;
 margin: auto;
 }
 #up , #down {
-  width: 45px;
+  width:45px;
   transform: rotate(270deg);
   position: absolute;
   top: 12.5%;
+  z-index: 5;
 }
 #down {
   right: 0;
